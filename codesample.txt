@@ -1,10 +1,10 @@
-＜＜　基本　＞＞
-get wd()				#カレントディレクトリ確認
+#-- ＜＜　基本　＞＞
+get wd()				#--カレントディレクトリ確認
 set wd("c:/usr")			#ディレクトリ変更
 read.table("xxxx.txt")			#テーブルデータ取り込み
 read.csv("xxxx.csv", header=T)		#CSVファイル取り込み、ヘッダーあり
 
-＜＜　型変換　＞＞
+#-- ＜＜　型変換　＞＞
 as.numeric()				#実数に変換する
 as.integer()				#整数に変換する
 as.complex()				#複素数に変換する
